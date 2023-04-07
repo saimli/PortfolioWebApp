@@ -1,0 +1,58 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .8;
+    z-index: 1; /* Add this line */
+  }
+  
+
+.popup-inner{
+    position: relative;
+    padding: 300px;
+    width: 100%;
+    max-width: 640px;
+    background-color: rgb(53, 53, 53);
+}
+
+.popup-inner .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.innerpopup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2; /* set z-index to 2 */
+
+}
+
+.innerpopup-inner{
+    position: relative;
+    padding: 50px;
+    width: 100%;
+    max-width: 640px;
+    opacity: 1;
+    z-index: 4;
+    background-color: rgb(1, 61, 6);
+}
+
+.innerpopup-inner .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
